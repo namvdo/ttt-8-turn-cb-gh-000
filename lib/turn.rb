@@ -10,7 +10,7 @@ end
 
 # Converting users' input to index into an array
 def input_to_index(input)
-    index  = input.to_i 
+    index  = input.to_i
     index -= 1
     return index
 end
@@ -56,6 +56,3 @@ def turn(board)
     turn(board)
   end
 end
-
-
-
